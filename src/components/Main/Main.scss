@@ -1,0 +1,44 @@
+.Main {
+  &-content {
+    display: flex;
+    flex-direction: column;
+    &Form {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      & span > div {
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        &:last-child {
+          min-height: auto;
+        }
+      }
+    }
+    &Place {
+      flex: 1;
+      max-height: 400px;
+      overflow-y: scroll;
+    }
+  }
+  &-save {
+    &Button {
+      display: flex;
+      justify-content: center;
+      margin-top: 8px;
+    }
+  }
+  @media (min-width: 768px) {
+    &-content {
+      flex-direction: row;
+      &Form {
+        & span > div {
+          min-height: 362px;
+          &:last-child {
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+}
