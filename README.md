@@ -4,6 +4,8 @@ excel2json frontend web app build with create-react-app, surge page: https://tid
 
 backend repository: https://github.com/devtoni/excel2json-api
 
+![how to](https://im4.ezgif.com/tmp/ezgif-4-0783e302c1.gif)
+
 ### Features
 
 - Upload an excel file with extension xls or xlsx
