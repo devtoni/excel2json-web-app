@@ -6,3 +6,5 @@ Enzyme.configure({ adapter: new Adapter() });
 global.shallow = shallow;
 global.render = render;
 global.mount = mount;
+global.prompt = jest.fn()
+global.Blob = function (content, options){return  ({content, options})}

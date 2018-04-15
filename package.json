@@ -49,8 +49,10 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "co": "sui-mono commit",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "phoenix": "rm -Rf ./node_modules && npm i",
     "test": "node scripts/test.js --env=jsdom",
     "test:watch": "node scripts/test.js --watch",
     "test:coverage": "node scripts/test.js --coverage"
@@ -64,6 +66,7 @@
     "jest": "22.4.3",
     "node-sass": "4.8.3",
     "prop-types": "15.6.1",
+    "react-test-renderer": "16.3.1",
     "sass-loader": "6.0.7"
   },
   "jest": {
