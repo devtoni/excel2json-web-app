@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main starts with an empty array for the jsonFile 1`] = `[Function]`;
